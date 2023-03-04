@@ -1,0 +1,26 @@
+
+$enable-negative-margins: true;
+    .top{
+        background-color: rgb(64, 141, 62);
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+    .menu{
+        background-color:rgb(51, 113, 52);
+        a{
+            color: white;
+        }
+        li{
+            padding: 10px;
+        }
+        img{
+            top: -40px;
+        }
+    }
+    .navbar-expand-1g .navbar-nav .nav-link{
+        padding: 15px;
+    }
