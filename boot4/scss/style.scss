@@ -1,0 +1,23 @@
+header img{
+    width: 140px;
+    height: 50px;
+}
+
+.nav-link{
+    &:hover{
+        background-color: rgb(54, 54, 240);
+        color: white;
+    }
+}
+
+.slider{
+    height: 600px;
+    background-color: grey;
+}
+
+.team{
+    img{
+        width: 550px;
+        height: 350px;
+    }
+}
